@@ -1,0 +1,131 @@
+#valor{
+    width: 25px;
+    padding: 12px;
+    margin-left: 10px;
+    box-shadow: 0 0 5px rgba(30,144,255,0.8);
+    margin-top: 5px;
+    text-align: center;
+}
+
+.sortear{
+    width: 150px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    
+}
+
+.sortear:hover{
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: red;
+    transition: all 0.4s ease;
+}
+
+.btnSalvar{
+    width: 150px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-left: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btnSalvar:hover{
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: red;
+    transition: all 0.4s ease;
+}
+
+.megaSena{
+    border: 2px solid black;
+    width: 25%;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba( 255, 228, 196, 0.5);
+    margin-right: 5px;
+}
+
+.lotoFacil
+{
+    border: 2px solid black;
+    width: 25%;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba( 255, 228, 196, 0.5);
+    margin-right: 5px;
+}
+
+.Quina
+{
+    border: 2px solid black;
+    width: 25%;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba( 255, 228, 196, 0.5);
+    margin-right: 5px;
+}
+
+.lotoMania
+{
+    border: 2px solid black;
+    width: 25%;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba( 255, 228, 196, 0.5);
+}
+
+h1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container
+{
+    display: flex;
+    padding: 13px;
+}
+
+.ocultoMega{
+    display: none;
+}
+
+table{
+    align-items: center;
+    border-collapse: collapse;
+    width: 85%;
+    border: 2px solid black;
+}
+th{
+    text-align: center;
+    padding: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: 	#808080;
+}
+td{
+    text-align: left;
+    padding: 8px;
+    background-color: #DCDCDC;
+}
+
+/* Aumentar o tamanho da primeira coluna*/
+th:nth-child(1), 
+td:nth-child(1){
+    width: 55%;
+}
+th:nth-child(2), 
+td:nth-child(2){
+    width: 30%;
+}
+
+.containerTable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
